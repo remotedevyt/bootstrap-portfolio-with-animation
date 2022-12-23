@@ -1,0 +1,117 @@
+body{
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+}
+
+.hero{
+    background-color: #0099ff;
+    padding: 75px 0px;
+}
+
+.hero-img{
+    width: 240px;
+}
+
+.hero-text{
+    font-size: 36px;
+    text-align: center;
+}
+
+.divider{
+    display: flex;
+    width: 350px;
+    margin: 35px auto;
+}
+
+.divider i{
+    display: inline-block;
+    margin-top: -12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.divider span{
+    display: inline-block;
+    width: 100%;
+}
+
+.divider-light span{
+    border-top: 2px solid #fff;
+}
+
+.divider-light i{
+    color: #fff;
+}
+
+.divider-dark span{
+    border-top: 2px solid #222;
+}
+
+.divider-dark i{
+    color: #222;
+}
+
+.page-section{
+    padding: 75px 0px;
+}
+.page-section-heading{
+    text-transform: uppercase;
+}
+
+.text-container .time{
+    color: #069;
+    text-transform: uppercase;
+}
+
+.port-item{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.port-item .item{
+    position: absolute;
+    color: #fff;
+    background-color: rgba(0,0,0,0.6);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+}
+
+.port-item:hover .item{
+    opacity: 1;
+}
+
+.footer{
+    background-color: #24262a;
+    color: #fff;
+}
+.social-icons a{
+    display: inline-block;
+}
+.social-icons a i{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.backtotop{
+    position: absolute;
+    display: block;
+    right: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: all 0.3s ease-in-out;
+}
+
+.backtotop a{
+    color: #fff;
+}
+
+.backtotop:hover{
+    opacity: 0.9;
+}
